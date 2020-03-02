@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.vtiger.crm.generics.ListenerImpl"></listener>
+</listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.autodesk.crm.organization.CreateLeadAndCancelTest_POM"/>
+      <class name="com.autodesk.crm.organization.DeleteOrganization_POM"/>
+      <class name="com.autodesk.crm.organization.VendorFilter_Test"/>
+     <!--  <class name="com.autodesk.crm.organization.SelectAdmin"/>
+      <class name="com.autodesk.crm.organization.DeleteOrganization"/> -->
+      <class name="com.autodesk.crm.organization.SelectAdmin_POM"/>
+      <class name="com.autodesk.crm.organization.Invoice_Test_POM"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
